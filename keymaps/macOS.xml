@@ -20,6 +20,10 @@
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="meta alt down" />
   </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
   <action id="Exit" />
   <action id="FileChooser.GotoDesktop" />
   <action id="Forward">
@@ -33,6 +37,10 @@
   </action>
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="meta 2" second-keystroke="l" />
+  </action>
+  <action id="NavBar-selectHome">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="meta left" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta n" />
@@ -49,6 +57,9 @@
   </action>
   <action id="PreviousWindow">
     <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl q" />
