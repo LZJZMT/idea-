@@ -1,0 +1,67 @@
+<keymap version="1" name="macOS复制" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.PreviousPage" />
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="Diff.ShowDiff" />
+  <action id="EditorAddOrRemoveCaret" />
+  <action id="EditorAddRectangularSelectionOnMouseDrag" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
+  <action id="Exit" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="GotoClass" />
+  <action id="GotoNextElementUnderCaretUsage" />
+  <action id="GotoPrevElementUnderCaretUsage" />
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="meta 2" second-keystroke="l" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="meta n" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="alt help" />
+  </action>
+  <action id="NextOccurence" />
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="meta #10000b7" />
+  </action>
+  <action id="PreviousOccurence" />
+  <action id="PreviousProjectWindow">
+    <keyboard-shortcut first-keystroke="meta #10000b7" />
+  </action>
+  <action id="PreviousWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShowUsages">
+    <keyboard-shortcut first-keystroke="meta alt f7" />
+    <mouse-shortcut keystroke="meta button1" />
+  </action>
+</keymap>

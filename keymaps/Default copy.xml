@@ -1,0 +1,27 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ChangesView.Diff" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.NextPage" />
+  <action id="Diff.ShowDiff" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorAddOrRemoveCaret" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoProject" />
+  <action id="GotoBookmark2" />
+  <action id="HippieCompletion" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="ctrl 2" second-keystroke="l" />
+  </action>
+  <action id="NextOccurence" />
+  <action id="PreviousOccurence" />
+  <action id="SendEOF" />
+</keymap>

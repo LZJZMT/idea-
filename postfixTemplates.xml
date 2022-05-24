@@ -1,0 +1,73 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="stringnull@userDefined" key=".snull" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="if(Strings.isNullOrEmpty($EXPR$)){&#10;        $END$&#10;        }" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="listnull@userDefined" key=".lnull" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.util.Collection" />
+      </conditions>
+      <template name="fakeKey" value="if(CollectionUtils.isEmpty($EXPR$)){&#10;        $END$&#10;        }" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="com.intellij.codeInsight.template.postfix.templates.InstanceofExpressionPostfixTemplate#.instanceof" key=".instanceof" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.InstanceofExpressionPostfixTemplate#.instanceof" />
+    <template id="snotnull@userDefined" key=".snotnull" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="if(!Strings.isNullOrEmpty($EXPR$)){&#10;        $END$&#10;        }" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="com.intellij.codeInsight.template.postfix.templates.CastExpressionPostfixTemplate#.cast" key=".cast" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.CastExpressionPostfixTemplate#.cast" />
+    <template id="lnotnull@userDefined" key=".lnotnull" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.util.Collection" />
+      </conditions>
+      <template name="fakeKey" value="if(!CollectionUtils.isEmpty($EXPR$)){&#10;        $END$&#10;        }" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="com.intellij.codeInsight.template.postfix.templates.TryStatementPostfixTemplate#.try" key=".try" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.TryStatementPostfixTemplate#.try" />
+    <template id="com.intellij.codeInsight.template.postfix.templates.SwitchStatementPostfixTemplate#.switch" key=".switch" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.SwitchStatementPostfixTemplate#.switch" />
+  </component>
+  <component name="PostfixTemplatesSettings">
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="builtin.java">
+        <value>
+          <set>
+            <option value="arg" />
+            <option value="assert" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.ElseStatementPostfixTemplate#.else" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.IntroduceFieldPostfixTemplate#.field" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotExpressionPostfixTemplate#!" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotExpressionPostfixTemplate#.not" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.ParenthesizedExpressionPostfixTemplate#.par" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.StreamPostfixTemplate#.stream" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.TryWithResourcesPostfixTemplate#.twr" />
+            <option value="reqnonnull" />
+            <option value="serr" />
+            <option value="souf" />
+            <option value="soutv" />
+          </set>
+        </value>
+      </disabled-templates>
+      <disabled-templates provider="de.plushnikov.intellij.plugin.extension.postfix.LombokPostfixTemplateProvider">
+        <value>
+          <set>
+            <option value="de.plushnikov.intellij.plugin.extension.postfix.LombokValPostfixTemplate#.val" />
+            <option value="de.plushnikov.intellij.plugin.extension.postfix.LombokVarPostfixTemplate#.varl" />
+          </set>
+        </value>
+      </disabled-templates>
+      <disabled-templates provider="reactor-postfix-templates">
+        <value>
+          <set>
+            <option value="test" />
+            <option value="testN" />
+            <option value="toFlux" />
+            <option value="toMono" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
+  </component>
+</application>
