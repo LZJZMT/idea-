@@ -1,0 +1,5 @@
+<templateSet group="AndroidXML">
+  <template name="distNs" value="xmlns:dist=&quot;http://schemas.android.com/apk/distribution&quot;" description="Adds distribution namespace" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+</templateSet>

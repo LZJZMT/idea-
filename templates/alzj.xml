@@ -1,5 +1,5 @@
 <templateSet group="alzj">
-  <template name="NL" value="List&lt;$T$&gt; list = new ArrayList();" shortcut="TAB" description="List list = new ArrayList&lt;&gt;();" toReformat="true" toShortenFQNames="true">
+  <template name="nList" value="List&lt;$T$&gt; list = new ArrayList();" shortcut="TAB" description="List list = new ArrayList&lt;&gt;();" toReformat="true" toShortenFQNames="true">
     <variable name="T" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
