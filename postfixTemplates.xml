@@ -1,5 +1,18 @@
 <application>
   <component name="PostfixTemplates">
+    <template id="lnotnull@userDefined" key=".lnotnull" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.util.Collection" />
+      </conditions>
+      <template name="fakeKey" value="if(!CollectionUtils.isEmpty($EXPR$)){&#10;        $END$&#10;        }" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="snotnull@userDefined" key=".snotnull" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="if(!Strings.isNullOrEmpty($EXPR$)){&#10;        $END$&#10;        }" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="com.intellij.codeInsight.template.postfix.templates.TryStatementPostfixTemplate#.try" key=".try" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.TryStatementPostfixTemplate#.try" />
     <template id="stringnull@userDefined" key=".snull" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.String" />
@@ -13,20 +26,7 @@
       <template name="fakeKey" value="if(CollectionUtils.isEmpty($EXPR$)){&#10;        $END$&#10;        }" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="com.intellij.codeInsight.template.postfix.templates.InstanceofExpressionPostfixTemplate#.instanceof" key=".instanceof" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.InstanceofExpressionPostfixTemplate#.instanceof" />
-    <template id="snotnull@userDefined" key=".snotnull" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.lang.String" />
-      </conditions>
-      <template name="fakeKey" value="if(!Strings.isNullOrEmpty($EXPR$)){&#10;        $END$&#10;        }" toReformat="true" toShortenFQNames="true" />
-    </template>
     <template id="com.intellij.codeInsight.template.postfix.templates.CastExpressionPostfixTemplate#.cast" key=".cast" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.CastExpressionPostfixTemplate#.cast" />
-    <template id="lnotnull@userDefined" key=".lnotnull" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.util.Collection" />
-      </conditions>
-      <template name="fakeKey" value="if(!CollectionUtils.isEmpty($EXPR$)){&#10;        $END$&#10;        }" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="com.intellij.codeInsight.template.postfix.templates.TryStatementPostfixTemplate#.try" key=".try" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.TryStatementPostfixTemplate#.try" />
     <template id="com.intellij.codeInsight.template.postfix.templates.SwitchStatementPostfixTemplate#.switch" key=".switch" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.SwitchStatementPostfixTemplate#.switch" />
   </component>
   <component name="PostfixTemplatesSettings">
@@ -50,11 +50,69 @@
           </set>
         </value>
       </disabled-templates>
+      <disabled-templates provider="builtin.php">
+        <value>
+          <set>
+            <option value="com.jetbrains.php.postfixCompletion.PhpEchoPostfixTemplate#.echo" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpElsePostfixTemplate#.else" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpForeachPostfixTemplate#.fe" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIfPostfixTemplate#.if" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIntroduceVarPostfixTemplate#.var" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIsNotNullPostfixTemplate#.nn" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIsNotNullPostfixTemplate#.notnull" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIsNullPostfixTemplate#.null" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpIssetPostfixTemplate#.isset" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpNotPostfixTemplate#!" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpNotPostfixTemplate#.not" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpParenPostfixTemplate#.par" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpReturnPostfixTemplate#.return" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpThrowPostfixTemplate#.throw" />
+            <option value="com.jetbrains.php.postfixCompletion.PhpVarDumpPostfixTemplate#.var_dump" />
+          </set>
+        </value>
+      </disabled-templates>
+      <disabled-templates provider="builtin.ts">
+        <value>
+          <set>
+            <option value="com.intellij.lang.typescript.template.postfix.TypeScriptCastPostfixTemplate#.cast" />
+          </set>
+        </value>
+      </disabled-templates>
       <disabled-templates provider="de.plushnikov.intellij.plugin.extension.postfix.LombokPostfixTemplateProvider">
         <value>
           <set>
             <option value="de.plushnikov.intellij.plugin.extension.postfix.LombokValPostfixTemplate#.val" />
             <option value="de.plushnikov.intellij.plugin.extension.postfix.LombokVarPostfixTemplate#.varl" />
+          </set>
+        </value>
+      </disabled-templates>
+      <disabled-templates provider="org.jetbrains.kotlin.idea.codeInsight.postfix.KtPostfixTemplateProvider">
+        <value>
+          <set>
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtArgumentPostfixTemplate#.arg" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtAssertPostfixTemplate#.assert" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtElseExpressionPostfixTemplate#.else" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtForEachPostfixTemplate#.for" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtForEachPostfixTemplate#.iter" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtIfExpressionPostfixTemplate#.if" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtIntroduceVariablePostfixTemplate#.val" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtIntroduceVariablePostfixTemplate#.var" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtIsNullPostfixTemplate#.null" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtNotNullPostfixTemplate#.nn" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtNotNullPostfixTemplate#.notnull" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtNotPostfixTemplate#.not" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtParenthesizedPostfixTemplate#.par" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtReturnPostfixTemplate#.return" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtSoutPostfixTemplate#.sout" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtSpreadPostfixTemplate#.spread" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtTryPostfixTemplate#.try" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtWhenExpressionPostfixTemplate#.when" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtWhilePostfixTemplate#.while" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtWithPostfixTemplate#.with" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtWrapWithArrayOfPostfixTemplate#.arrayOf" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtWrapWithListOfPostfixTemplate#.listOf" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtWrapWithSequenceOfPostfixTemplate#.sequenceOf" />
+            <option value="org.jetbrains.kotlin.idea.codeInsight.postfix.KtWrapWithSetOfPostfixTemplate#.setOf" />
           </set>
         </value>
       </disabled-templates>
