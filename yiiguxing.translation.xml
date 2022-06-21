@@ -4,6 +4,9 @@
     <option name="newTranslationDialogY" value="484" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="The three forms of park each also support a blocker object parameter. This object is recorded while the thread is blocked to permit monitoring and diagnostic tools to identify the reasons that threads are blocked. (Such tools may access blockers using method getBlocker(Thread).) The use of these forms rather than the original forms without this parameter is strongly encouraged. The normal argument to supply as a blocker within a lock implementation is this. These methods are designed to be used as tools for creating higher-level synchronization utilities, and are not in themselves useful for most concurrency control applications. The park method is designed for use only in constructions of the form: while (!canProceed()) { ... LockSupport.park(this); } where neither canProceed nor any other actions prior to the call to park entail locking or blocking. Because only one permit is associated with each thread, any intermediary uses of park could interfere with its intended effects. Sample Usage. Here is a sketch of a first-in-first-out non-reentrant lock class:" />
+      <item value="This class associates, with each thread that uses it, a permit (in the sense of the Semaphore class). A call to park will return immediately if the permit is available, consuming it in the process; otherwise it may block. A call to unpark makes the permit available, if it was not already available. (Unlike with Semaphores though, permits do not accumulate. There is at most one.)" />
+      <item value="Methods park and unpark provide efficient means of blocking and unblocking threads that do not encounter the problems that cause the deprecated methods Thread.suspend and Thread.resume to be unusable for such purposes: Races between one thread invoking park and another thread trying to unpark it will preserve liveness, due to the permit. Additionally, park will return if the caller's thread was interrupted, and timeout versions are supported. The park method may also return at any other time, for &quot;no reason&quot;, so in general must be invoked within a loop that rechecks conditions upon return. In this sense park serves as an optimization of a &quot;busy wait&quot; that does not waste as much time spinning, but must be paired with an unpark to be effective." />
       <item value="Establishes the heap invariant (described above) in the entire tree, assuming nothing about the order of the elements prior to the call." />
       <item value="A comparison function, which imposes" />
       <item value="compact" />
@@ -51,14 +54,11 @@
       <item value="bussiness" />
       <item value="Present" />
       <item value="Manual" />
-      <item value="Returns the value associated with key in this cache, or null if there is no cached value for key." />
-      <item value="elevation" />
-      <item value="Altitude" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="137" />
-        <entry key="ENGLISH" value="138" />
+        <entry key="CHINESE" value="140" />
+        <entry key="ENGLISH" value="141" />
         <entry key="POLISH" value="1" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
