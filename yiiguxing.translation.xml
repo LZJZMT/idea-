@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="700" />
     <option name="newTranslationDialogY" value="481" />
     <histories>
+      <item value="commission" />
       <item value="Acquires in exclusive uninterruptible mode for thread already in queue. Used by condition wait methods as well as acquire." />
       <item value="Exclusive" />
       <item value="To use this class as the basis of a synchronizer, redefine the following methods, as applicable, by inspecting andor modifying the synchronization state using getState, setState andor compareAndSetState:" />
@@ -52,7 +53,6 @@
       <item value="立案处罚" />
       <item value="责令整改" />
       <item value="Amount" />
-      <item value="by Every Year" />
     </histories>
     <option name="languageScores">
       <map>
