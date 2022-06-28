@@ -67,10 +67,12 @@
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="ResourceExplorer.show" />
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="SendEOF" />
+  <action id="ServiceView.ShowServices" />
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="meta alt f7" />
     <mouse-shortcut keystroke="meta button1" />
