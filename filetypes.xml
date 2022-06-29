@@ -5,6 +5,7 @@
       <mapping pattern="my-friends" type="AUTO_DETECTED" />
       <mapping pattern="8" type="AUTO_DETECTED" />
       <mapping pattern="proxys" type="AUTO_DETECTED" />
+      <mapping pattern="查看docker容器数量" type="AUTO_DETECTED" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="yaml" approved="true" type="YAML" />
