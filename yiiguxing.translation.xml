@@ -3,6 +3,8 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="Position" />
+      <item value="Postion" />
       <item value="address" />
       <item value="lat" />
       <item value="lon" />
@@ -51,19 +53,17 @@
       <item value="Phrase" />
       <item value="Rows" />
       <item value="Columns" />
-      <item value="Shrink" />
-      <item value="Compliance" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="164" />
-        <entry key="ENGLISH" value="165" />
+        <entry key="CHINESE" value="165" />
+        <entry key="ENGLISH" value="166" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="SPANISH" value="2" />
         <entry key="ITALIAN" value="1" />
-        <entry key="HINDI" value="1" />
+        <entry key="HINDI" value="2" />
       </map>
     </option>
   </component>
