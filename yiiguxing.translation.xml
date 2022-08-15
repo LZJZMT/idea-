@@ -3,6 +3,10 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="Frozen Watermelon" />
+      <item value="Watermelon" />
+      <item value="Water" />
+      <item value="Frozen" />
       <item value="common" />
       <item value="Generic" />
       <item value="Rectificate" />
@@ -49,15 +53,11 @@
       <item value="compact" />
       <item value="Flattening" />
       <item value="set Form Flattening" />
-      <item value="scale Absolute" />
-      <item value="alignment" />
-      <item value="Alignment" />
-      <item value="indentation" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="167" />
-        <entry key="ENGLISH" value="168" />
+        <entry key="CHINESE" value="171" />
+        <entry key="ENGLISH" value="172" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
