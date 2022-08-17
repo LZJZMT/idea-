@@ -7,7 +7,6 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="所有位置" />
-    <option name="FILE_MASK" value="pom.xml" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -15,7 +14,7 @@
     <mask>*Controller.java</mask>
     <mask>*Impl.java</mask>
     <mask>*.xml</mask>
-    <mask>*.java</mask>
     <mask>pom.xml</mask>
+    <mask>*.java</mask>
   </component>
 </application>
