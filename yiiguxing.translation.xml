@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="sync" />
       <item value="portal" />
       <item value="Frozen Watermelon" />
       <item value="Watermelon" />
@@ -52,12 +53,11 @@
       <item value="Establishes the heap invariant (described above) in the entire tree, assuming nothing about the order of the elements prior to the call." />
       <item value="A comparison function, which imposes" />
       <item value="compact" />
-      <item value="Flattening" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="172" />
-        <entry key="ENGLISH" value="173" />
+        <entry key="CHINESE" value="173" />
+        <entry key="ENGLISH" value="174" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
