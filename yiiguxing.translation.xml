@@ -3,6 +3,8 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="FOUR" />
+      <item value="Categary" />
       <item value="sync" />
       <item value="portal" />
       <item value="Frozen Watermelon" />
@@ -51,20 +53,18 @@
       <item value="This class associates, with each thread that uses it, a permit (in the sense of the Semaphore class). A call to park will return immediately if the permit is available, consuming it in the process; otherwise it may block. A call to unpark makes the permit available, if it was not already available. (Unlike with Semaphores though, permits do not accumulate. There is at most one.)" />
       <item value="Methods park and unpark provide efficient means of blocking and unblocking threads that do not encounter the problems that cause the deprecated methods Thread.suspend and Thread.resume to be unusable for such purposes: Races between one thread invoking park and another thread trying to unpark it will preserve liveness, due to the permit. Additionally, park will return if the caller's thread was interrupted, and timeout versions are supported. The park method may also return at any other time, for &quot;no reason&quot;, so in general must be invoked within a loop that rechecks conditions upon return. In this sense park serves as an optimization of a &quot;busy wait&quot; that does not waste as much time spinning, but must be paired with an unpark to be effective." />
       <item value="Establishes the heap invariant (described above) in the entire tree, assuming nothing about the order of the elements prior to the call." />
-      <item value="A comparison function, which imposes" />
-      <item value="compact" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="173" />
-        <entry key="ENGLISH" value="174" />
+        <entry key="CHINESE" value="174" />
+        <entry key="ENGLISH" value="175" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
         <entry key="SPANISH" value="2" />
         <entry key="ITALIAN" value="1" />
-        <entry key="HINDI" value="2" />
+        <entry key="HINDI" value="3" />
       </map>
     </option>
   </component>
