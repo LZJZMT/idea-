@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="affirm" />
       <item value="As the queue is unbounded, this method will never return false." />
       <item value="Both head and tail may or may not point to a Node with a non-null item. If the queue is empty, all items must of course be null. Upon creation, both head and tail refer to a dummy Node with null item. Both head and tail are only updated using CAS, so they never regress, although again this is merely an optimization." />
       <item value="CAS, so they never regress, although again this is merely an optimization." />
@@ -52,12 +53,11 @@
       <item value="Result Message" />
       <item value="Gallery" />
       <item value="commission" />
-      <item value="Acquires in exclusive uninterruptible mode for thread already in queue. Used by condition wait methods as well as acquire." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="183" />
-        <entry key="ENGLISH" value="184" />
+        <entry key="CHINESE" value="184" />
+        <entry key="ENGLISH" value="185" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
