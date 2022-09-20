@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="InheritableThreadLocal values pertaining to this thread. This map is maintained by the InheritableThreadLocal class." />
       <item value="cumulative" />
       <item value="permit" />
       <item value="cancel" />
@@ -52,12 +53,11 @@
       <item value="tail" />
       <item value="Inserts the specified element at the tail of this queue. As the queue is unbounded, this method will never return false." />
       <item value="offer" />
-      <item value="Beware that, unlike in most collections, the size method is NOT a constant-time operation. Because of the asynchronous nature of these queues, determining the current number of elements requires a traversal of the elements, and so may report inaccurate results if this collection is modified during traversal. Additionally, the bulk operations addAll, removeAll, retainAll, containsAll, equals, and toArray are not guaranteed to be performed atomically. For example, an iterator operating concurrently with an addAll operation might view only some of the added elements." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="191" />
-        <entry key="ENGLISH" value="192" />
+        <entry key="CHINESE" value="192" />
+        <entry key="ENGLISH" value="193" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
