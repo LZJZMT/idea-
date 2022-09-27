@@ -3,6 +3,9 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="Inbound" />
+      <item value="Post Office" />
+      <item value="Office" />
       <item value="encoder" />
       <item value="InheritableThreadLocal values pertaining to this thread. This map is maintained by the InheritableThreadLocal class." />
       <item value="cumulative" />
@@ -50,14 +53,11 @@
       <item value="internal" />
       <item value="Dispatcher" />
       <item value="maintain" />
-      <item value="Lost CAS race to another thread; re-read next" />
-      <item value="tail" />
-      <item value="Inserts the specified element at the tail of this queue. As the queue is unbounded, this method will never return false." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="193" />
-        <entry key="ENGLISH" value="194" />
+        <entry key="CHINESE" value="196" />
+        <entry key="ENGLISH" value="197" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
