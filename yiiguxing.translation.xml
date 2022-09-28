@@ -3,6 +3,8 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="Calls ChannelHandlerContext.fireUserEventTriggered(Object) to forward to the next ChannelInboundHandler in the ChannelPipeline. Sub-classes may override this method to change behavior." />
+      <item value="Promise" />
       <item value="Inbound" />
       <item value="Post Office" />
       <item value="Office" />
@@ -51,8 +53,6 @@
       <item value="specify" />
       <item value="retrieve" />
       <item value="internal" />
-      <item value="Dispatcher" />
-      <item value="maintain" />
     </histories>
     <option name="languageScores">
       <map>
