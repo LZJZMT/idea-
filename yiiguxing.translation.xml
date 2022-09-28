@@ -3,6 +3,8 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="retained Duplicate" />
+      <item value="is Dup" />
       <item value="PUBREL" />
       <item value="Calls ChannelHandlerContext.fireUserEventTriggered(Object) to forward to the next ChannelInboundHandler in the ChannelPipeline. Sub-classes may override this method to change behavior." />
       <item value="Promise" />
@@ -51,8 +53,6 @@
       <item value="pure" />
       <item value="long Term" />
       <item value="registered" />
-      <item value="specify" />
-      <item value="retrieve" />
     </histories>
     <option name="languageScores">
       <map>
