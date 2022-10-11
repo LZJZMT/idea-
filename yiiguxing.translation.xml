@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="valid" />
       <item value="deallocate" />
       <item value="retained Duplicate" />
       <item value="is Dup" />
@@ -52,7 +53,6 @@
       <item value="Icon" />
       <item value="QUICK MSECURITY PAY" />
       <item value="pure" />
-      <item value="long Term" />
     </histories>
     <option name="languageScores">
       <map>
