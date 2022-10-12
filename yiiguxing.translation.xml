@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="Duplicates" />
       <item value="Not create a new ChannelFutureListener per write operation to reduce GC pressure" />
       <item value="valid" />
       <item value="deallocate" />
@@ -52,7 +53,6 @@
       <item value="lon" />
       <item value="Evict" />
       <item value="Icon" />
-      <item value="QUICK MSECURITY PAY" />
     </histories>
     <option name="languageScores">
       <map>
@@ -72,6 +72,16 @@
     <option name="lastTrimTime" value="1664241185788" />
   </component>
   <component name="Settings">
+    <option name="aliTranslateSettings">
+      <app-key>
+        <option name="appId" value="LTAIbusRyQSiafdy" />
+      </app-key>
+    </option>
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="primaryLanguage" value="ESPERANTO" />
+      </google-translate>
+    </option>
     <option name="translateDocumentation" value="true" />
   </component>
 </application>
