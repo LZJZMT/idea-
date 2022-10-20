@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="624" />
     <option name="newTranslationDialogY" value="775" />
     <histories>
+      <item value="Phrase" />
       <item value="Award" />
       <item value="settlement" />
       <item value="XXX Hard-coded value, but won't need customization" />
@@ -52,7 +53,6 @@
       <item value="Rectificate" />
       <item value="Position" />
       <item value="Postion" />
-      <item value="address" />
     </histories>
     <option name="languageScores">
       <map>
