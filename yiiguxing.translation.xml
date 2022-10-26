@@ -1,8 +1,13 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogX" value="624" />
-    <option name="newTranslationDialogY" value="775" />
+    <option name="newTranslationDialogCollapseDictViewer" value="false" />
+    <option name="newTranslationDialogX" value="599" />
+    <option name="newTranslationDialogY" value="738" />
+    <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="排序项" />
+      <item value="Order Item" />
+      <item value="order Item List" />
       <item value="decode" />
       <item value="Phrase" />
       <item value="Award" />
@@ -50,14 +55,11 @@
       <item value="Water" />
       <item value="Frozen" />
       <item value="common" />
-      <item value="Generic" />
-      <item value="Rectificate" />
-      <item value="Position" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="196" />
-        <entry key="ENGLISH" value="197" />
+        <entry key="CHINESE" value="199" />
+        <entry key="ENGLISH" value="200" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
@@ -69,7 +71,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1664241185788" />
+    <option name="lastTrimTime" value="1666754953044" />
   </component>
   <component name="Settings">
     <option name="aliTranslateSettings">
@@ -83,5 +85,11 @@
       </google-translate>
     </option>
     <option name="translateDocumentation" value="true" />
+    <option name="translator" value="YOUDAO" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="101cbe0712549f96" />
+      </youdao-translate>
+    </option>
   </component>
 </application>
