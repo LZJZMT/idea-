@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="738" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Allocator" />
       <item value="schedule" />
       <item value="排序项" />
       <item value="Order Item" />
@@ -54,12 +55,11 @@
       <item value="Frozen Watermelon" />
       <item value="Watermelon" />
       <item value="Water" />
-      <item value="Frozen" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="201" />
-        <entry key="ENGLISH" value="202" />
+        <entry key="CHINESE" value="202" />
+        <entry key="ENGLISH" value="203" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
