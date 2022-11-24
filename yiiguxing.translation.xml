@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="738" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="unified" />
       <item value="Battery" />
       <item value="If the incoming Forwarded header is syntactically valid, append to it" />
       <item value="fire" />
@@ -54,12 +55,11 @@
       <item value="FOUR" />
       <item value="Categary" />
       <item value="sync" />
-      <item value="portal" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="205" />
-        <entry key="ENGLISH" value="206" />
+        <entry key="CHINESE" value="206" />
+        <entry key="ENGLISH" value="207" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
