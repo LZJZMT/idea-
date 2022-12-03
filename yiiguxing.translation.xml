@@ -5,6 +5,9 @@
     <option name="newTranslationDialogY" value="738" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="未知" />
+      <item value="静止" />
+      <item value="运动" />
       <item value="Illeage" />
       <item value="Elevation" />
       <item value="unified" />
@@ -52,14 +55,11 @@
       <item value="Both head and tail are only updated using" />
       <item value="Node with null item" />
       <item value="fix" />
-      <item value="render" />
-      <item value="partner" />
-      <item value="FOUR" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="208" />
-        <entry key="ENGLISH" value="209" />
+        <entry key="CHINESE" value="211" />
+        <entry key="ENGLISH" value="212" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
