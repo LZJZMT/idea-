@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="738" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="震动" />
+      <item value="shake" />
       <item value="未知" />
       <item value="静止" />
       <item value="运动" />
@@ -53,13 +55,11 @@
       <item value="CAS, so they never regress, although again this is merely an optimization." />
       <item value="Node with null item. Both head and tail are only updated using" />
       <item value="Both head and tail are only updated using" />
-      <item value="Node with null item" />
-      <item value="fix" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="211" />
-        <entry key="ENGLISH" value="212" />
+        <entry key="CHINESE" value="214" />
+        <entry key="ENGLISH" value="215" />
         <entry key="POLISH" value="2" />
         <entry key="FILIPINO" value="1" />
         <entry key="CATALAN" value="1" />
