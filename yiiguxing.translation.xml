@@ -100,13 +100,15 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Queued" />
+      <item value="acquire" />
       <item value="The correctness of this depends on head being initialized before tail and on head.next being accurate if the current thread is first in queue." />
       <item value="Fair version of tryAcquire. Don't grant access unless recursive call or no waiters or is first." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="1" />
-        <entry key="ENGLISH" value="1" />
+        <entry key="ENGLISH" value="2" />
       </map>
     </option>
   </component>
