@@ -100,6 +100,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Predecessors" />
       <item value="Queued" />
       <item value="acquire" />
       <item value="The correctness of this depends on head being initialized before tail and on head.next being accurate if the current thread is first in queue." />
@@ -107,8 +108,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1" />
-        <entry key="ENGLISH" value="2" />
+        <entry key="CHINESE" value="2" />
+        <entry key="ENGLISH" value="3" />
       </map>
     </option>
   </component>
