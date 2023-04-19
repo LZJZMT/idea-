@@ -7,7 +7,6 @@
       <mapping pattern="proxys" type="AUTO_DETECTED" />
       <mapping pattern="查看docker容器数量" type="AUTO_DETECTED" />
       <mapping ext="conf_bak" type="PLAIN_TEXT" />
-      <mapping ext="qrc" type="XML" />
       <removed_mapping pattern="**spring-configuration-metadata.json" approved="true" type="JSON" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
