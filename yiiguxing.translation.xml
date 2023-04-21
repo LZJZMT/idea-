@@ -97,6 +97,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="defaulted" />
       <item value="pass" />
       <item value="reuse" />
       <item value="offline" />
