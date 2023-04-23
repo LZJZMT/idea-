@@ -97,6 +97,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="memo" />
       <item value="member" />
       <item value="moment" />
       <item value="defaulted" />
