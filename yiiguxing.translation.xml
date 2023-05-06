@@ -97,6 +97,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="permit" />
       <item value="Absent" />
       <item value="memo" />
       <item value="member" />
