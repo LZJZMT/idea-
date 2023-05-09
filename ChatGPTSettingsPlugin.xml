@@ -1,0 +1,19 @@
+<application>
+  <component name="com.obiscr.chatgpt.settings.OpenAISettingsState">
+    <option name="customizeUrl" value="https://api.chatanywhere.com.cn" />
+    <option name="apiKey" value="sk-nCau4088CO4LDpnuCBqn8C3OlJYTEtL6sT974eE58CB148Ac" />
+    <option name="contentOrder">
+      <map>
+        <entry key="1" value="GPT-3.5-Turbo" />
+        <entry key="2" value="ChatGPT" />
+        <entry key="3" value="Online ChatGPT" />
+      </map>
+    </option>
+    <option name="chatGptModel" value="text-davinci-002-render-paid" />
+    <option name="enableContext" value="true" />
+    <option name="enableTokenConsumption" value="true" />
+    <option name="enableGPT35StreamResponse" value="true" />
+    <option name="gpt35TurboUrl" value="https://api.chatanywhere.cn/v1/chat/completions" />
+    <option name="enableCustomizeGpt35TurboUrl" value="true" />
+  </component>
+</application>
