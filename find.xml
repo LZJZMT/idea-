@@ -4,9 +4,7 @@
     <option name="defaultScopeName" value="所有位置" />
     <option name="localWholeWordsOnly" value="true" />
     <option name="skipResultsWithOneUsage" value="true" />
-    <option name="wholeWordsOnly" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="所有位置" />
     <mask>*.css</mask>
@@ -17,9 +15,9 @@
     <mask>*Impl.java</mask>
     <mask>pom.xml</mask>
     <mask>crea*.sql</mask>
-    <mask>*.yaml</mask>
     <mask>*.sql</mask>
     <mask>*.java</mask>
     <mask>*.xml</mask>
+    <mask>*.yaml</mask>
   </component>
 </application>
