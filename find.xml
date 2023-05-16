@@ -5,13 +5,13 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="所有位置" />
+    <option name="FILE_MASK" value="pom.xml" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*Controller.java</mask>
     <mask>*Impl.java</mask>
-    <mask>pom.xml</mask>
     <mask>crea*.sql</mask>
     <mask>*.xml</mask>
     <mask>*.yaml</mask>
@@ -19,5 +19,6 @@
     <mask>*.vue</mask>
     <mask>*.js</mask>
     <mask>*.java</mask>
+    <mask>pom.xml</mask>
   </component>
 </application>
