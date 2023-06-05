@@ -97,6 +97,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Permit" />
       <item value="Outlets" />
       <item value="receive Order" />
       <item value="Reward" />
