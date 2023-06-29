@@ -21,7 +21,7 @@
     <mask>*.vue</mask>
     <mask>*.sql</mask>
     <mask>pom.xml</mask>
-    <mask>*.java</mask>
     <mask>*.js</mask>
+    <mask>*.java</mask>
   </component>
 </application>
