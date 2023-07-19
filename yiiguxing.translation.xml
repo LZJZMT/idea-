@@ -95,8 +95,12 @@
   <component name="Translation.Cache">
     <option name="lastTrimTime" value="1679884822335" />
   </component>
+  <component name="Translation.Settings">
+    <option name="translator" value="MICROSOFT" />
+  </component>
   <component name="Translation.States">
     <histories>
+      <item value="charge" />
       <item value="anonymous" />
       <item value="Permit" />
       <item value="Outlets" />
