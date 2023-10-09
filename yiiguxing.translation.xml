@@ -100,6 +100,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="select count(clr.id) as count, b.id as `key`, b.name as `keyName` from content_learn_record clr right join driver d on (d.id = clr.user_id and clr.content_id = 4 ) right join branch b on b.id = d.branch_id WHERE clr.create_date &gt;= '2023-09-12' and clr.create_date &lt;= '2023-10-12' and d.area_code like CONCAT('3304', '%') and d.brand_id = 4 and clr.content_id = 4 group by b.id;" />
       <item value="charge" />
       <item value="anonymous" />
       <item value="Permit" />
